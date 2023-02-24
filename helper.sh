@@ -12,8 +12,8 @@ fi
 repository_username=$3
 repository_branch=$4
 
-if [ -v $repository_username ] || [ $repository_username == cobalt2727 ]; then
-  export repository_username=cobalt2727
+if [ -v $repository_username ] || [ $repository_username == mrcmunir ]; then
+  export repository_username=mrcmunir
 else
   echo "Developer Mode Enabled! Repository = $repository_username"
 fi
